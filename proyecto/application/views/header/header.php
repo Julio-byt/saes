@@ -7,7 +7,7 @@
     <title><?= html_escape(isset($titulo) ? $titulo : 'SAES'); ?></title>
 
     <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
         rel="stylesheet">
 
     <link

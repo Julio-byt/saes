@@ -19,7 +19,7 @@
             <ul class="navbar-nav me-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= site_url(); ?>">
+                    <a class="nav-link" href="<?= site_url('inicio'); ?>">
                         Inicio
                     </a>
                 </li>

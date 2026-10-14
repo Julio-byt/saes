@@ -10,10 +10,17 @@
     <form action="<?= site_url('alumnos/guardar'); ?>" method="POST">
 
         <div class="mb-3">
+            <label>Matrícula:</label>
+            <input type="text" name="matricula_al"
+                   class="form-control" required>
+        </div>
+
+        <div class="mb-3">
             <label>Nombre:</label>
             <input type="text" name="nombre_al"
                    class="form-control" required>
         </div>
+
 
         <div class="mb-3">
             <label>Apellido paterno:</label>
@@ -24,12 +31,6 @@
         <div class="mb-3">
             <label>Apellido materno:</label>
             <input type="text" name="amaterno_al"
-                   class="form-control" required>
-        </div>
-
-        <div class="mb-3">
-            <label>Matrícula:</label>
-            <input type="text" name="matricula_al"
                    class="form-control" required>
         </div>
 
