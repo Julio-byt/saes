@@ -21,7 +21,6 @@
                    class="form-control" required>
         </div>
 
-
         <div class="mb-3">
             <label>Apellido paterno:</label>
             <input type="text" name="apaterno_al"
